@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .space {
+            margin: 10px 10px 10px 10px;
+        }
+
+        legend {
+            color: rgb(112, 13, 13);
+            font-weight: 700;
+        }
+
+        fieldset {
+            background-color: rgb(248, 248, 248);
+        }
+    </style>
+</head>
+
+<body>
+    <form action="mailto:hrinyov@gmail.com" method="post" enctype="text/plain">
+        <fieldset name="Про себе" class="space">
+            <legend>Про себе</legend>
+            <legend>ПІБ</legend>
+            <input type="text" name="ПІБ">
+            <br>
+            <legend>Адреса</legend>
+            <input type="text">
+            <br>
+            <legend>Вік</legend>
+            <input type="number" min="1" max="120">
+            <br>
+            <legend>Пошта</legend>
+            <input type="email">
+        </fieldset>
+        <fieldset name="Місце роботи" class="space">
+            <legend>Місце роботи</legend>
+            <legend>Адреса організації</legend>
+            <input type="text">
+            <legend>Стаж роботи(цілих років)</legend>
+            <input type="number" min="0" max="60">
+            <legend>Дата початку роботи</legend>
+            <input type="date">
+        </fieldset>
+        <fieldset name="Статичний опитувальник" clas="space">
+            <legend>Статичний опитувальник</legend>
+            <legend>Як оцінюєте роботу президента?</legend>
+            <input type="range" min="0" max="10">
+            <legend>Коментар стосовно останніх виборів:</legend>
+            <textarea>
+            </textarea>
+            <legend>Найкращий місяць для відпустки:</legend>
+            <div>
+
+                <label>Січень-
+                    <input type="radio" name="month">;
+                </label>
+                <label>Лютий-
+                    <input type="radio" name="month">;
+                </label>
+                <label>Березень-
+                    <input type="radio" name="month">;
+                </label>
+                <label>Квітень-
+                    <input type="radio" name="month">;
+                </label>
+                <label>Травень-
+                    <input type="radio" name="month">;
+                </label>
+                <label>Червень-
+                    <input type="radio" name="month">;
+                </label>
+            </div>
+            <div>
+
+                <label>Липень-
+                    <input type="radio" name="month">;
+                </label>
+                <label>Серпень-
+                    <input type="radio" name="month">;
+                </label>
+                <label>Вересень-
+                    <input type="radio" name="month">;
+                </label>
+                <label>Жовтень-
+                    <input type="radio" name="month">;
+                </label>
+                <label>Листопад-
+                    <input type="radio" name="month">;
+                </label>
+                <label>Грудень-
+                    <input type="radio" name="month">;
+                </label>
+            </div>
+        </fieldset>
+        <fieldset name="Пріорітети" clas="space">
+            <legend>Пріорітети</legend>
+            <legend>Вибір кави:</legend>
+            <div>
+                <input type="radio" name="cafe">Jacobs
+            </div>
+            <div>
+                <input type="radio" name="cafe">Nescafe
+            </div>
+            <div>
+                <input type="radio" name="cafe">Aromacava
+            </div>
+            <div>
+                <input type="radio" name="cafe">McCoffee
+            </div>
+            <div>
+                <input type="radio" name="cafe">Chibo
+            </div>
+            <legend>Місця відпочинку:</legend>
+            <div>Аквапарк
+                <input type="checkbox">
+            </div>
+            <div>Озеро
+                <input type="checkbox">
+            </div>
+            <div>Альтанка в лісі
+                <input type="checkbox">
+            </div>
+            <div>Баня
+                <input type="checkbox">
+            </div>
+            <div>Боулінг
+                <input type="checkbox">
+            </div>
+            <div>Парк
+                <input type="checkbox">
+            </div>
+            <legend>Автомобіль:</legend>
+            <select name="auto">
+                <option>Opel</option>
+                <option>Nissan</option>
+                <option>Toyota</option>
+                <option>Ford</option>
+                <option>Skoda</option>
+            </select>
+            <legend>Овочі:</legend>
+            <select>
+                <optgroup label="Арбузові">
+                    <option>Огірки</option>
+                    <option>Кабачки</option>
+                    <option>Цукіні</option>
+                    <option>Патісони</option>
+                </optgroup>
+                <optgroup label="Капустяні">
+                    <option>брюссельська</option>
+                    <option>цвітна</option>
+                    <option>пекінська</option>
+                    <option>білокачанна</option>
+                </optgroup>
+                <optgroup label="Селерові">
+                    <option>морква</option>
+                    <option>петрушка</option>
+                    <option>пастернак</option>
+                    <option>селера</option>
+                </optgroup>
+                <optgroup label="Пасльонові">
+                    <option>помідори</option>
+                    <option>перець</option>
+                    <option>картопля</option>
+                    <option>баклажани</option>
+                </optgroup>
+            </select>
+            <br>
+            <div class="space">
+                <input type="reset" value="Очистити" style="background-color:rgb(215, 122, 122);">
+                <input type="submit" value="Надіслати" style="background-color:rgb(94, 145, 94);">
+            </div>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
