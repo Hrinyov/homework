@@ -1,0 +1,65 @@
+h3 {
+  color: hsl(228, 48%, 38%);
+  margin: 0 0 2px 200px;
+}
+div h3,
+p {
+  text-decoration: underline;
+  margin: 10px 0 10px 200px;
+}
+p {
+  margin: 0 50px 0 0;
+  text-align: right;
+  color: rgb(19, 194, 74);
+}
+li.one {
+  color: red;
+}
+li.two {
+  color: rgb(255, 213, 0);
+}
+li.gray {
+  color: gray;
+}
+.redtext {
+  color: red;
+}
+.yellowtext {
+  color: rgb(255, 213, 0);
+}
+.graytext {
+  color: gray;
+}
+.cyantext {
+  color: rgb(28, 173, 235);
+}
+.bluetext {
+  color: hsl(228, 58%, 46%);
+}
+ul {
+  color: black;
+}
+li a {
+  color: gray;
+}
+.ulone {
+  margin: 0 0 0 50px;
+}
+.ultwo {
+  margin: 30px 0 0 150px;
+}
+.ulthree {
+  margin: 0 0 0 150px;
+}
+.size {
+  font-size: small;
+}
+li {
+  font-size: 30px;
+}
+.normal {
+  font-size: medium;
+}
+.first {
+  font-size: medium;
+}
