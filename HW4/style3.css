@@ -1,0 +1,32 @@
+div.end p {
+  margin: 10px 100px 10px 100px;
+  text-align: justify;
+}
+div.end p:first-letter {
+  color: red;
+}
+.green {
+  color: green;
+}
+.chess tr:nth-child(odd) td:nth-child(odd) {
+  background-color: green;
+}
+.chess tr:nth-child(even) td:nth-child(even) {
+  background-color: green;
+}
+td {
+  width: 60px;
+  height: 60px;
+}
+table.chess {
+  border-collapse: collapse;
+  border: 1px solid gray;
+  margin: auto;
+}
+div.a p:nth-child(even) {
+  color: rgb(184, 24, 24);
+}
+div.a p {
+  text-align: center;
+  font-weight: 700;
+}
