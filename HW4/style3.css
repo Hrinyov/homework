@@ -30,3 +30,20 @@ div.a p {
   text-align: center;
   font-weight: 700;
 }
+table.hard {
+  border: 2px solid;
+  margin: auto;
+}
+table.hard td {
+  width: 200px;
+  border: 2px solid white;
+
+  font-weight: 600;
+}
+table.hard thead {
+  background-color: rgb(32, 167, 167);
+  color: whitesmoke;
+}
+table.hard tbody tr:nth-child(odd) {
+  background-color: rgba(215, 168, 168, 0.628);
+}
