@@ -105,30 +105,37 @@ div.div-two-green-second p {
   right: 30px;
   top: 20px;
 }
-.div-three-green {
-  height: 100px;
+div.div-three-green {
+  height: 80px;
   width: 800px;
-  border: 15px solid rgb(13, 171, 13);
-  margin: 20px auto;
-  text-align: left;
-  padding: 0px 50px;
+  border: 10px solid rgb(38, 184, 38);
+  margin: auto;
+  padding-top: 10px;
+  align-content: center;
 }
-span.one,
-span.two,
-div.div-three-green-small {
-  font-size: larger;
-  position: relative;
-  top: 6px;
-}
-span {
-  color: rgb(13, 171, 13);
-}
-div.div-three-green-small {
-  display: inline;
-  border: 10px solid red;
-  padding: 10px 80px;
+
+div.div-three-red-small {
   color: red;
-  margin: 5px 15px 5px 10px;
+  font-size: larger;
+  border: 10px solid red;
+  display: inline;
+  padding: 10px 50px;
   position: relative;
-  left: 90px;
+  top: 20px;
+}
+div.one,
+div.two {
+  color: rgb(38, 184, 38);
+  display: inline;
+  font-size: larger;
+}
+div.one {
+  float: left;
+  margin: 20px 10px 20px 30px;
+}
+div.two {
+  float: right;
+  position: relative;
+  left: 80px;
+  top: -8px;
 }
