@@ -237,10 +237,36 @@ div.seven {
   margin: 30px auto;
   overflow: hidden;
 }
-div.senenBox {
+.sevenBox {
   width: 150px;
   height: 150px;
   background-color: rgb(255, 205, 205);
   float: left;
   margin: 10px;
+}
+div.maketOne a,
+div.maketTwo a {
+  text-decoration: none;
+}
+.maket1,
+.maket2 {
+  color: aliceblue;
+  height: 60px;
+  width: 300px;
+  background-color: gray;
+  border: 4px solid black;
+  font-size: larger;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 10px;
+}
+.maketOne {
+  float: left;
+  margin-left: 200px;
+}
+.maketTwo {
+  float: right;
+  margin-right: 200px;
 }
